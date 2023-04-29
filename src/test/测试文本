@@ -1,0 +1,141 @@
+1.我正在开发vscode插件，你可以告诉我怎么使用vscode插件通过用户调用命令
+之后打开一个新的页面吗,请使用TS语言实现
+
+2.npm上有什么好用的字符串解析为markdown的工具吗
+
+3.如何使用marked
+
+4.使用marked时报错rejected promise not handled within 1 second: TypeError: t is not a function
+extensionHostProcess.js:102 stack trace: TypeError: t is not a function at d:\work\vscodePlugins\juge-bling\dist\extension.js:2:268520 怎么办
+
+5.我正在开发vscode插件，如何在侧边打开新的webview
+
+6.我正在开发vscode插件，如何设置右键运行我的插件命令
+
+用c++演示一下堆排序
+
+1.在html的video标签中，如何在全屏播放模式的情况下，显示其他元素
+
+2.用户代理样式:not(:root):fullscreen是什么意思
+
+3.如何取消这个样式:not(:root):fullscreen
+
+4.在css中#shadow-root(user-agent)是什么意思
+
+5.我想在video标签全屏播放的时候显示其他元素，但是我失败了，其中有一段js代码是video {
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}这是影响我失败的原因吗
+
+6.css中insert的属性值有哪些
+
+7.如何让html中的元素显示在全局最顶层
+
+8.如何自己写一个h5视频播放器
+
+9.css如何设置一个元素为top-layer
+
+10.如何修改#shadow-root(user-agent)
+
+11.为什么我设置了元素的z-index标签比video更大，但是在video全屏播放时，仍然不能显示元素
+
+12.js如何进入手机浏览器的全屏模式
+
+13.如何使用win11通过usb控制我的手机界面
+
+14.我安装了Vysor，手机已经和电脑连接上了，但是我在win11上无法控制我的手机
+
+15.js有没有调用手机横屏的api或者方法
+
+16.我正在写vscode插件，我想让我打开的webview新页面之前监听一下我想要打开的webview是否打开，怎么做                                                                                                                                                                                            
+
+如何使用react官方的Create React App脚手架工具
+
+cmd强制删除文件夹
+
+react脚手架创建的项目和nextjs创建的项目，哪一个比较好，哪一个的体积比较小
+
+我要开发一个仅仅只有一个页面的web项目，react脚手架和nextjs哪一个比较适合
+
+我使用nextjs创建了一个项目，当我想使用npm run build构建项目时，却报错HookWebpackError: File D:\work\react\cam-web\.next\server\app\favicon.ico\route.js does not exist.我并没有修改过什么内容，但是确保错了，为什么
+
+HookWebpackError: File D:\work\react\cam-web\.next\server\app\favicon.ico\route.js does not exist.
+    at makeWebpackError (D:\work\react\cam-web\node_modules\next\dist\compiled\webpack\bundle5.js:28:308185)这个报错是什么原因
+
+next的打包配置在什么地方修改
+
+const nextConfig = {
+  experimental: {
+    appDir: true,
+  },
+}这是什么意思
+
+使用next打包好项目之后如何部署
+
+如果我只想部署nextjs中的静态html，也就是不包含服务端的部署，该怎么做
+
+error - "next export" does not work with App Router. Please use "output: export" in next.config.js https://nextjs.org/docs/advanced-features/static-html-export这个报错怎么解决
+
+我添加了  output: {
+    export: true
+  }但是还是有同样的报错，怎么解决
+background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));是什么意思
+
+如何封装一个js文件为npm包
+
+为这个函数写一个函数注释function checkvideotime(){
+    var video_buffered = video_sourceBuffer.buffered;
+    var audio_buffered = audio_sourceBuffer.buffered;
+    var video = document.getElementById("video_box");
+    if (video_buffered.length > 0 && audio_buffered.length > 0) {
+        var v_diff, a_diff;
+        var v_id = video_buffered.length - 1;
+        var a_id = audio_buffered.length - 1;
+        v_diff = video_buffered.end(v_id) - video.currentTime;
+        a_diff = audio_buffered.end(a_id) - video.currentTime;
+
+        if (a_diff - v_diff > 0.10) {
+            //console.log("we will lose an audio segment.")
+            bLost = true;
+        }
+    }
+}
+
+互联网大厂所说的nodejs生态圈建设是指什么
+
+nodejs和spring boot相比怎么样
+
+flutter会成为移动端开发的主流吗
+
+uniapp会成为移动端开发的主流吗
+
+可以给我讲解一下video 元素的 sourceBuffer 对象吗
+
+SourceBuffer对象的updateend事件是什么意思
+
+Uint8Array对象是用来干什么的
+
+Uint8Array有哪些属性和方法
+
+Uint8Array对象如何处理图片、视频
+
+二进制
+
+在vscode插件开发中如何设置新打开的webview的Favicon图标
+
+如何将一个html字符串,转义为html实体
+
+js有没有什么方法转义一个包含特殊字符的html字符串
+
+js创建一个div节点
+
+nodejs中可以使用innerHTML方法吗,如果不可以,有什么替代方案吗
+
+cheerio
+jsdom

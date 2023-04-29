@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+	<style>
+    html {
+		width:100vw;
+		height:100vh;
+        background: url('https://blog.al2p.xyz/upload/original-d65b37185f7849deeb249555b5514e7f.png') no-repeat;
+        background-size: 100% 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .msg {
+        width: 78vw;
+        height: 85vh;
+        border-radius: 15px;
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: rgba(252, 252, 252, 0.103);
+        backdrop-filter: blur(10px);
+        color: rgb(245, 245, 245);
+        overflow: auto;
+    }
+
+    .logo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: 22px;
+        color: rgb(245, 245, 245);
+    }
+	.release{
+		display: flex;
+		justify-content: end;
+		font-size: 14px;
+		color: #A9AEB8;
+		padding:2px;
+	}
+
+    pre {
+        width: 70vw;
+        
+        overflow-x: auto;
+        border-radius: 10px;
+		padding:15px;
+    }
+	
+</style>
+</head>
+<body>
+	<script>
+		const app = document.getElementById('app');
+		app.innerHTML = '1231312'
+	</script>
+    <div class="logo">
+        <img style="width:70px;height: 60px;" src="https://blog.al2p.xyz/upload/laclogo.png" alt="">
+        <div>F.R.I.D.A.Y. 原型机1-el.ser</div>
+    </div>
+    <div class="msg">
+       ${markdownMsg}
+    </div>
+	<div class="release">版本号: el.ser 1.0.01</div>
+	<div id="app"></div>
+</body>
+
+</html>
